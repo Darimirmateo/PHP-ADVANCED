@@ -1,9 +1,9 @@
 <?php
 
 $leeftijd = 1;
-while($leeftijd <=18) {
+for($leeftijd = 0; $leeftijd <= 18; $leeftijd++) {
     echo " Ik ben $leeftijd, dus ik mag nog niet stemmen<br /> ";
-    $leeftijd++;    
+        
 }
 
  {
