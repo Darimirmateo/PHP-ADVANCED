@@ -7,7 +7,7 @@
 <body>
 <?php
 
-echo "en de gegevens zijn:" . $_POST["invoerformulier"];
+echo $_POST["voornaam"];
 
 
 ?>
