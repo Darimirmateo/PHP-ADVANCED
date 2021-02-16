@@ -14,7 +14,7 @@ echo $_POST["Klass"];
 echo $_POST["plaatsnaam"];
 echo $_POST["favoriete muziekband"];
 
-
+waarom zie ik deze gegevens niet op de pagina??
 
 ?>
 </body>
