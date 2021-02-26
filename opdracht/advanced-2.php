@@ -1,16 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eindopdrach PHP ADVANCED</title>
+    <title>gegevens</title>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 <body>
-    
+<?php
+
+echo $_POST["naam"];
+echo $_POST["lengte"];
+echo $_POST["achternaam"];
+echo $_POST["leeftijd"];
+echo $_POST["favoriete muziekband"];
 
 
-
+?>
 </body>
 </html>
