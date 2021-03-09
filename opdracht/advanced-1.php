@@ -8,7 +8,17 @@
 <body>
     
 
-    <form name="maakrij" action="advanced.php"
+<?php
+$kleuren =
+array("red", "blue", "green", "black", "brown");
+foreach ($kleuren as $value) {
+    echo $value. "<br />";     
+}
+?>
+
+
+
+    <form name="maakrij" action="advanced-2.php"
     method="POST">
     <h1>naam</h1>
     <input type="text" name="naam" > 
@@ -18,8 +28,8 @@
     <input type="text" name="achternaam" > 
     <h1>leeftijd</h1>
     <input type="text" name="leeftijd">
-    <h1>favoriete muziekband</h1>
-    <input type="text" name="favoriete muziekband">  
+    <h1>favorietemuziekband</h1>
+    <input type="text" name="favorietemuziekband">  
     <input type="submit" name="submit" value="verstuur">
 
     

@@ -11,9 +11,9 @@ echo $_POST["naam"];
 echo $_POST["lengte"];
 echo $_POST["achternaam"];
 echo $_POST["leeftijd"];
-echo $_POST["favorietemuziekband"];
 
 
+echo
 
 ?>
 </body>
